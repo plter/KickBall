@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		314474E8194A930C00F57EBA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314474E7194A930C00F57EBA /* main.swift */; };
+		314474EA194A930C00F57EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314474E9194A930C00F57EBA /* AppDelegate.swift */; };
+		314474EC194A930C00F57EBA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314474EB194A930C00F57EBA /* GameScene.swift */; };
+		314474F0194A930C00F57EBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314474EF194A930C00F57EBA /* Images.xcassets */; };
+		314474F3194A930C00F57EBA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 314474F1194A930C00F57EBA /* MainMenu.xib */; };
+		314474FF194A930C00F57EBA /* KickBallMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314474FE194A930C00F57EBA /* KickBallMacTests.swift */; };
+		31447509194AA44E00F57EBA /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31447508194AA44E00F57EBA /* GameOverScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		314474F9194A930C00F57EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 314474DA194A930C00F57EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 314474E1194A930C00F57EBA;
+			remoteInfo = KickBallMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		314474E2194A930C00F57EBA /* KickBallMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickBallMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		314474E6194A930C00F57EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314474E7194A930C00F57EBA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		314474E9194A930C00F57EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		314474EB194A930C00F57EBA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		314474EF194A930C00F57EBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		314474F2194A930C00F57EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		314474F8194A930C00F57EBA /* KickBallMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickBallMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		314474FD194A930C00F57EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314474FE194A930C00F57EBA /* KickBallMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickBallMacTests.swift; sourceTree = "<group>"; };
+		31447508194AA44E00F57EBA /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		314474DF194A930C00F57EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314474F5194A930C00F57EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		314474D9194A930C00F57EBA = {
+			isa = PBXGroup;
+			children = (
+				314474E4194A930C00F57EBA /* KickBallMac */,
+				314474FB194A930C00F57EBA /* KickBallMacTests */,
+				314474E3194A930C00F57EBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		314474E3194A930C00F57EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				314474E2194A930C00F57EBA /* KickBallMac.app */,
+				314474F8194A930C00F57EBA /* KickBallMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		314474E4194A930C00F57EBA /* KickBallMac */ = {
+			isa = PBXGroup;
+			children = (
+				314474E9194A930C00F57EBA /* AppDelegate.swift */,
+				314474EB194A930C00F57EBA /* GameScene.swift */,
+				31447508194AA44E00F57EBA /* GameOverScene.swift */,
+				314474EF194A930C00F57EBA /* Images.xcassets */,
+				314474F1194A930C00F57EBA /* MainMenu.xib */,
+				314474E5194A930C00F57EBA /* Supporting Files */,
+			);
+			path = KickBallMac;
+			sourceTree = "<group>";
+		};
+		314474E5194A930C00F57EBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				314474E6194A930C00F57EBA /* Info.plist */,
+				314474E7194A930C00F57EBA /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		314474FB194A930C00F57EBA /* KickBallMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				314474FE194A930C00F57EBA /* KickBallMacTests.swift */,
+				314474FC194A930C00F57EBA /* Supporting Files */,
+			);
+			path = KickBallMacTests;
+			sourceTree = "<group>";
+		};
+		314474FC194A930C00F57EBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				314474FD194A930C00F57EBA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		314474E1194A930C00F57EBA /* KickBallMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31447502194A930C00F57EBA /* Build configuration list for PBXNativeTarget "KickBallMac" */;
+			buildPhases = (
+				314474DE194A930C00F57EBA /* Sources */,
+				314474DF194A930C00F57EBA /* Frameworks */,
+				314474E0194A930C00F57EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KickBallMac;
+			productName = KickBallMac;
+			productReference = 314474E2194A930C00F57EBA /* KickBallMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		314474F7194A930C00F57EBA /* KickBallMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31447505194A930C00F57EBA /* Build configuration list for PBXNativeTarget "KickBallMacTests" */;
+			buildPhases = (
+				314474F4194A930C00F57EBA /* Sources */,
+				314474F5194A930C00F57EBA /* Frameworks */,
+				314474F6194A930C00F57EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				314474FA194A930C00F57EBA /* PBXTargetDependency */,
+			);
+			name = KickBallMacTests;
+			productName = KickBallMacTests;
+			productReference = 314474F8194A930C00F57EBA /* KickBallMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		314474DA194A930C00F57EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = eoe;
+				TargetAttributes = {
+					314474E1194A930C00F57EBA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					314474F7194A930C00F57EBA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 314474E1194A930C00F57EBA;
+					};
+				};
+			};
+			buildConfigurationList = 314474DD194A930C00F57EBA /* Build configuration list for PBXProject "KickBallMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 314474D9194A930C00F57EBA;
+			productRefGroup = 314474E3194A930C00F57EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				314474E1194A930C00F57EBA /* KickBallMac */,
+				314474F7194A930C00F57EBA /* KickBallMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		314474E0194A930C00F57EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314474F0194A930C00F57EBA /* Images.xcassets in Resources */,
+				314474F3194A930C00F57EBA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314474F6194A930C00F57EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		314474DE194A930C00F57EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314474EC194A930C00F57EBA /* GameScene.swift in Sources */,
+				314474EA194A930C00F57EBA /* AppDelegate.swift in Sources */,
+				31447509194AA44E00F57EBA /* GameOverScene.swift in Sources */,
+				314474E8194A930C00F57EBA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314474F4194A930C00F57EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314474FF194A930C00F57EBA /* KickBallMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		314474FA194A930C00F57EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 314474E1194A930C00F57EBA /* KickBallMac */;
+			targetProxy = 314474F9194A930C00F57EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		314474F1194A930C00F57EBA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				314474F2194A930C00F57EBA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31447500194A930C00F57EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31447501194A930C00F57EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		31447503194A930C00F57EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KickBallMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31447504194A930C00F57EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KickBallMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31447506194A930C00F57EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KickBallMac.app/Contents/MacOS/KickBallMac";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KickBallMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		31447507194A930C00F57EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KickBallMac.app/Contents/MacOS/KickBallMac";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KickBallMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		314474DD194A930C00F57EBA /* Build configuration list for PBXProject "KickBallMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31447500194A930C00F57EBA /* Debug */,
+				31447501194A930C00F57EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31447502194A930C00F57EBA /* Build configuration list for PBXNativeTarget "KickBallMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31447503194A930C00F57EBA /* Debug */,
+				31447504194A930C00F57EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31447505194A930C00F57EBA /* Build configuration list for PBXNativeTarget "KickBallMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31447506194A930C00F57EBA /* Debug */,
+				31447507194A930C00F57EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 314474DA194A930C00F57EBA /* Project object */;
+}
