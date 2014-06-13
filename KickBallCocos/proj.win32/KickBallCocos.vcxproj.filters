@@ -18,7 +18,10 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+    <ClCompile Include="..\Classes\GameOverScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +32,10 @@
     <ClInclude Include="..\Classes\AppDelegate.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\HelloWorldScene.h">
+    <ClInclude Include="..\Classes\GameOverScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
       <Filter>Classes</Filter>
     </ClInclude>
   </ItemGroup>
@@ -37,5 +43,55 @@
     <ResourceCompile Include="game.rc">
       <Filter>resource</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\ball.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\bg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\flag1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\flag2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\flag3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\flag4.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\flag5.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\flag6.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\flag7.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\flag8.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\flag9.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\flag10.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\flag11.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </Image>
   </ItemGroup>
 </Project>

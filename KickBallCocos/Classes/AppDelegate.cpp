@@ -22,9 +22,9 @@ bool AppDelegate::applicationDidFinishLaunching() {
     
     glview->setDesignResolutionSize(800, 600, ResolutionPolicy::SHOW_ALL);
     
-#if CC_TARGET_PLATFORM==CC_PLATFORM_MAC||CC_TARGET_PLATFORM==CC_PLATFORM_WIN32
+//#if CC_TARGET_PLATFORM==CC_PLATFORM_MAC||CC_TARGET_PLATFORM==CC_PLATFORM_WIN32
     glview->setFrameSize(800, 600);
-#endif
+//#endif
 
     // turn on display FPS
     director->setDisplayStats(true);

@@ -2,6 +2,7 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
+#include <stdint.h>
 
 class Game : public cocos2d::Layer
 {
@@ -16,9 +17,9 @@ private:
     clock_t startTime;
     
 private:
-    static const int MASK_EDGE = 0b1;
-    static const int MASK_BALL = 0b10;
-    static const int MASK_FLAG = 0B100;
+    static const int MASK_EDGE = 1;
+    static const int MASK_BALL = 2;
+    static const int MASK_FLAG = 4;
     
 private:
     void onTouch(cocos2d::Touch *);

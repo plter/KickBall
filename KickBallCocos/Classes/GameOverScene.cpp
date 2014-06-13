@@ -9,6 +9,7 @@
 #include "GameOverScene.h"
 #include "GameScene.h"
 #include <time.h>
+#include <iostream>
 
 
 Scene* GameOver::createScene(clock_t time){
@@ -40,7 +41,7 @@ bool GameOver::init(clock_t time){
     restartLabel->setSystemFontSize(32);
     restartLabel->setPosition(size.width/2, size.height/2+100);
     addChild(restartLabel);
-    restartLabel->setString(StringUtils::format("游戏结束，用时%g,点击这里重新开始",((double)time)/CLOCKS_PER_SEC));
+    restartLabel->setString(StringUtils::format("Game Over，time is %g,click here to restart",((double)time)/CLOCKS_PER_SEC));
     
     //add touch listener
     touchListener = EventListenerTouchOneByOne::create();

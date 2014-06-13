@@ -50,7 +50,7 @@ bool Game::init()
     startScreenLabel = Label::create();
     addChild(startScreenLabel);
     startScreenLabel->setSystemFontSize(40);
-    startScreenLabel->setString("点击屏幕开始游戏");
+    startScreenLabel->setString("Press screen to start game");
     startScreenLabel->setPosition(size.width/2, size.height/2);
     
     //add ball
